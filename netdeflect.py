@@ -27,6 +27,11 @@ How it decides what to do
 Run with --help for options, or --setup for a guided setup.
 """
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import os
 import re
 import sys
